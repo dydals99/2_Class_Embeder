@@ -77,7 +77,6 @@ cp .env.example .env
 |------|--------|------|
 | `GEMINI_MODEL` | `gemini-2.5-flash-lite` | LLM (실험·대조 동일) |
 | `GEMINI_EMBEDDING_MODEL` | `gemini-embedding-001` | 임베딩 |
-| `GEMINI_FALLBACK_MODEL` | `gemini-2.0-flash` | 429/503 시 폴백 |
 | `CRAWL_MODE` | `http` | `http`(권장) 또는 `browser` |
 | `MAX_COLLECT_RETRIES` | `2` | 검수 반려 후 Collector 재시도 횟수 |
 | `PROPOSED_MAX_CHUNKS_PER_DOC` | `3` | 실험군 문서당 최대 청크 수 |
