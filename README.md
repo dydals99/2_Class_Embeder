@@ -86,9 +86,6 @@ cp .env.example .env
 전체 목록은 [`.env.example`](.env.example) 를 참고하세요.
 
 ### 4) 보안 주의
-
-- **`.env`는 Git에 올리지 마세요.** (`.gitignore`에 포함됨)
-- **API 키를 README·이슈·커밋에 적지 마세요.**
 - `.env.example`에는 `your_gemini_api_key_here` 같은 **플레이스홀더만** 둡니다.
 
 ### 5) 로컬 전용 데이터 경로 (자동 생성)
